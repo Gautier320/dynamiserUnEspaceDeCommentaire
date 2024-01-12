@@ -61,27 +61,13 @@ document.addEventListener("DOMContentLoaded", function () {
       messageInput.value = "";
     }
     debugger
-/*
+
    if (!isValid) {
-    //redirectTo('/');
-    
     event.defaultPrevented(); // Empêcher l'envoi du formulaire si des erreurs existent.
-   console.log('Votre commentaire est pris en compte');
-  }*/
+  }
   });
 
 });
 
-/*
-try{
-  myVariable++;
-} catch (error){
-  console.log(error.name);
-  //ReferenceError à examiner dans le code
-  console.log(error.message);
-  console.log(error.stack);
-  Sentry.captureError(error);
-};
-*/
 
 
