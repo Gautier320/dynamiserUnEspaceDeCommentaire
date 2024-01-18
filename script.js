@@ -60,13 +60,14 @@ document.addEventListener("DOMContentLoaded", function () {
       lastNameInput.value = "";
       messageInput.value = "";
     }
-    debugger
-
+    
    if (!isValid) {
     event.defaultPrevented(); // Empêcher l'envoi du formulaire si des erreurs existent.
   }
+    
   });
 
+  
 });
 
 
